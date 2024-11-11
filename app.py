@@ -22,7 +22,7 @@ def recomend(movie):
   return recommend_movies, recommend_movies_posters
 
 
-st.title('Movie Recommendation System')
+st.title('Cine SUggestor')
 movie_selected = st.selectbox('Enter the movie ', df['title'].unique())
 
 if st.button('Recommend'):
